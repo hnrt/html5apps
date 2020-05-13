@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Number Place HTML5</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <!-- Bootstrap -->
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!--
+    <script src="bootstrap.min.js"></script>
+	-->
+    <link rel="stylesheet" type="text/css" href="numberplace.css">
+    <script src="numberplace.js"></script>
+  </head>
+  <body>
+
+    <div class="container" id="contents">
+
+      <canvas id="numberPlaceCanvas"></canvas>
+
+      <div class="numberPlaceButtons">
+        <button type="button" class="btn btn-primary" id="saveButton" onClick="onClickSave()">Save</button>
+        <button type="button" class="btn btn-primary" id="lockButton" onClick="onClickLock()">Lock</button>
+        <button type="button" class="btn btn-primary" id="checkButton" onClick="onClickCheck()">Check</button>
+        <button type="button" class="btn btn-primary" id="solveButton" onClick="onClickSolve()">Solve</button>
+        <button type="button" class="btn btn-primary" id="resetButton" onClick="onClickReset()">Reset</button>
+        <button type="button" class="btn btn-primary" id="showButton" onClick="onClickShowNumberButtons()">Show number buttons</button>
+      </div>
+
+      <div id="statusArea">
+        First, enter the initial numbers. Then, press "Lock" button.
+      </div>
+
+    </div>
+
+    <div class="container" id="savedSheets">
+      <hr>
+    </div>
+
+  </body>
+</html>

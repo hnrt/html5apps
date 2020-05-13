@@ -1,0 +1,27 @@
+canvas#numberPlaceCanvas {
+	margin-top: 4em;
+}
+
+div.numberPlaceButtons {
+	margin-top: 0.5em;
+	float: none;
+}
+
+button {
+	margin-top: 0.5em;
+	margin-right: 0.5em;
+}
+
+div#statusArea {
+	margin-top: 1em;
+}
+
+div#savedSheets {
+	margin-bottom: 1em;
+}
+
+div.savedSheet {
+	margin-right: 1em;
+	margin-bottom: 1em;
+	float: left;
+}
